@@ -10,7 +10,9 @@
     <link rel="stylesheet" href="output.css">
     <link rel="stylesheet" href="./style.css">
     <style>
-    
+        html {
+            scroll-behavior: smooth;
+        }
     </style>
 </head>
 
@@ -227,7 +229,7 @@
 </div>
 </main>
 
-<section class="w-[94%] sm:w-[92%] max-w-7xl mx-auto mt-4">
+<section id="tentang" class="w-[94%] sm:w-[92%] max-w-7xl mx-auto mt-4">
 
     <div class="grid grid-cols-1 lg:grid-cols-2 gap-4">
 
@@ -351,7 +353,7 @@
 
 
         <!-- ================= SKILL ================= -->
-        <div class="bg-[#F8FAFC] p-4 sm:p-5 rounded-2xl shadow-sm">
+        <div id="skill" class="bg-[#F8FAFC] p-4 sm:p-5 rounded-2xl shadow-sm">
 
             <div class="flex items-center gap-3">
 
@@ -522,7 +524,7 @@
 
 </section>
 
-<footer class="w-[92%] max-w-7xl mx-auto mt-4 rounded-2xl shadow-sm bg-[#F8FAFC] p-5">
+<footer id="project" class="w-[92%] max-w-7xl mx-auto mt-4 rounded-2xl shadow-sm bg-[#F8FAFC] p-5">
     <div class="flex items-center mb-3 gap-5">
         <img src="Icon/portfolio-folder.png" alt=""
         class="h-10 w-10 shrink-0 object-contain">
@@ -587,21 +589,21 @@
                     </li>
 
                     <li>
-                        <a href="#about"
+                        <a href="#tentang"
                            class="text-slate-400 transition hover:text-white">
                             Tentang Saya
                         </a>
                     </li>
 
                     <li>
-                        <a href="#projects"
+                        <a href="#project"
                            class="text-slate-400 transition hover:text-white">
                             Proyek
                         </a>
                     </li>
 
                     <li>
-                        <a href="#skills"
+                        <a href="#skill"
                            class="text-slate-400 transition hover:text-white">
                             Keahlian
                         </a>
@@ -610,7 +612,7 @@
             </div>
 
             <!-- Kontak -->
-            <div>
+            <div id="contact">
                 <h3 class="text-sm font-semibold uppercase tracking-wider">
                     Terhubung
                 </h3>
@@ -622,20 +624,31 @@
 
                 <div class="mt-5 flex gap-3">
 
-                    <a href="#"
+                    <a href="https://github.com/dedenCs/portofolio/settings/pages"
                        class="flex h-10 w-10 items-center justify-center rounded-xl
                               border border-white/10 bg-white/5 text-slate-400
                               transition hover:border-white/20 hover:bg-white/10
                               hover:text-white">
-                        GitHub
+                            <img src="./Icon/github.png" alt="" 
+                            class="w-30 h-30 object-contain shrink-0 p-2 rounded-2xl shadow-sm">
                     </a>
+                    
 
-                    <a href="#"
+                    <a href="mailto:ryzkya46@gmail.com"
                        class="flex h-10 w-10 items-center justify-center rounded-xl
                               border border-white/10 bg-white/5 text-slate-400
                               transition hover:border-white/20 hover:bg-white/10
                               hover:text-white">
-                        in
+                              <img src="./Icon/gmail.png" alt="" 
+                              class="w-30 h-30 object-contain shrink-0 p-2 shadow-sm rounded-2xl">
+                    </a>
+                    <a href=https://wa.me/6283110831334?text=Halo,%20saya%20tertarik%20dengan%20portfolio%20Anda." target="_blank"
+                       class="flex h-10 w-10 items-center justify-center rounded-xl
+                              border border-white/10 bg-white/5 text-slate-400
+                              transition hover:border-white/20 hover:bg-white/10
+                              hover:text-white">
+                              <img src="./Icon/whatsapp.png" alt="" 
+                              class="w-30 h-30 object-contain shrink-0 p-2 shadow-sm rounded-2xl">
                     </a>
 
                 </div>
