@@ -1,0 +1,668 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+
+    <meta name="viewport"
+        content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="output.css">
+    <link rel="stylesheet" href="./style.css">
+    <style>
+    
+    </style>
+</head>
+
+<body class="bg-[#EEF2FF]">
+<!-- =========================
+     NAVBAR
+========================= -->
+<header class="w-[92%] max-w-7xl mx-auto mt-4 rounded-2xl bg-[#F5F7FB] p-3 shadow-sm">
+    <div class="flex flex-col gap-4 md:flex-row md:items-center md:justify-between">
+
+        <!-- Logo + Nama -->
+        <div class="flex items-center gap-2">
+            <img
+                src="images/titk-koma.png"
+                class="h-12 w-12 object-contain sm:h-14 sm:w-14"
+                alt="Logo"
+            >
+
+            <div>
+                <h1 class="text-sm font-bold sm:text-base">
+                    Ahmad Ryzky
+                </h1>
+
+                <p class="text-xs text-[#6366F1] sm:text-sm">
+                    Junior Web Developer
+                </p>
+            </div>
+        </div>
+
+        <!-- Navigation -->
+        <nav>
+            <ul class="flex flex-wrap items-center gap-x-5 gap-y-2 text-sm font-medium text-gray-700 md:justify-end">
+                <li>
+                    <a href="#home" class="transition hover:text-indigo-600">
+                        Home
+                    </a>
+                </li>
+
+                <li>
+                    <a href="#tentang" class="transition hover:text-indigo-600">
+                        Tentang
+                    </a>
+                </li>
+
+                <li>
+                    <a href="#skill" class="transition hover:text-indigo-600">
+                        Skill
+                    </a>
+                </li>
+
+                <li>
+                    <a href="#project" class="transition hover:text-indigo-600">
+                        Project
+                    </a>
+                </li>
+
+                <li>
+                    <a href="#contact" class="transition hover:text-indigo-600">
+                        Contact
+                    </a>
+                </li>
+            </ul>
+        </nav>
+
+    </div>
+</header>
+
+
+<!-- =========================
+     HERO SECTION
+========================= -->
+<menu
+    id="home"
+    class="w-[92%] max-w-7xl mx-auto mt-4 overflow-hidden rounded-2xl bg-[#F5F7FB] p-6 shadow-sm sm:p-8 md:p-10"
+>
+    <div class="flex flex-col-reverse items-center gap-10 md:flex-row md:justify-between md:gap-12">
+
+        <!-- =========================
+             TEXT
+        ========================= -->
+        <div class="w-full md:w-1/2">
+
+            <p class="text-sm font-medium text-indigo-500 sm:text-base">
+                Hello, I'm
+            </p>
+
+            <h1 class="mt-2 text-3xl font-extrabold tracking-tight text-gray-900 sm:text-4xl lg:text-5xl">
+                Ahmad Ryzky
+            </h1>
+
+            <p class="mt-3 text-base font-semibold text-[#6366F1] sm:text-lg">
+                Junior Web Developer
+            </p>
+
+            <p class="mt-5 max-w-xl text-sm leading-7 text-gray-600 sm:text-base">
+                Saya adalah seorang pekerja freelance di Shopee yang saat ini
+                sedang mengembangkan diri untuk menjadi seorang programmer.
+                Tujuan saya adalah terus berkembang dan mendapatkan kesempatan
+                untuk bekerja sebagai seorang programmer, khususnya di bidang
+                web development.
+            </p>
+
+            <!-- =========================
+                 BUTTON
+            ========================= -->
+            <div>
+                <div class="mt-7 flex flex-cols-2 gap-3 sm:flex-row">
+                    <a
+                    href="#tentang"
+                    class="inline-flex w-full items-center justify-center rounded-xl bg-indigo-600 px-5 py-3 text-sm font-semibold text-white shadow-lg shadow-indigo-500/20 transition-all duration-300 hover:-translate-y-0.5 hover:bg-indigo-700 hover:shadow-xl hover:shadow-indigo-500/30 focus:outline-none focus:ring-2 focus:ring-indigo-500 focus:ring-offset-2 sm:w-auto"
+                >
+                    Tentang Saya
+                </a>
+
+                <a
+                    href="#project"
+                    class="inline-flex w-full items-center justify-center rounded-xl border border-indigo-600 bg-white px-5 py-3 text-sm font-semibold text-indigo-600 transition-all duration-300 hover:-translate-y-0.5 hover:bg-indigo-50 focus:outline-none focus:ring-2 focus:ring-indigo-500 focus:ring-offset-2 sm:w-auto"
+                >
+                    Lihat Portfolio
+                </a>
+                </div>
+                <div class="flex flex-cols gap-5 mt-3">
+                    <img src="Icon/whatsap.png"
+                        class="w-10 bg-[rgb(255,255,255,0.55)] py-2 px-2 rounded-full shadow-md" alt="image">
+                    <img src="Icon/communication.png"
+                        class="w-10 bg-[rgb(255,255,255,0.55)] py-2 px-2 rounded-full shadow-md" alt="image">
+                </div>
+            </div>
+        </div>
+
+
+        <div class="flex w-full justify-center md:w-1/2 md:justify-end">
+
+            <div class="w-full max-w-md">
+                <img
+                    src="images/minecraft.png"
+                    class="h-auto w-full rounded-2xl object-contain"
+                    alt="Ilustrasi Ahmad Ryzky"
+                >
+            </div>
+
+        </div>
+
+    </div>
+</menu>
+
+<main class="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-4 w-[92%] max-w-7xl m-auto mt-5 bg-[#F8FAFC] p-6 shadow-sm sm:p-8 md:p-10 rounded-2xl gap-5">
+    <div class="flex items-start gap-3">
+    <img
+        src="Icon/book.png"
+        alt="Source belajar"
+        class="w-15 h-15 object-contain shrink-0 shadow-md rounded-2xl p-2"
+    >
+
+    <div>
+        <h3 class="font-extrabold">
+            Source Belajar
+        </h3>
+
+        <p class="text-sm text-gray-600">
+            Youtube, Berbagai Website dan ChatGPT
+        </p>
+    </div>
+</div>
+
+
+<div class="flex items-start gap-3">
+    <img
+        src="Icon/team.png"
+        alt="Terbiasa bekerja tim"
+        class="w-15 h-15 object-contain shrink-0 shadow-md rounded-2xl p-2"
+    >
+
+    <div>
+        <h3 class="font-extrabold">
+            Terbiasa Bekerja Tim
+        </h3>
+
+        <p class="text-sm text-gray-600">
+            Dapat bekerja sama dan berkomunikasi dengan baik
+        </p>
+    </div>
+</div>
+
+
+<div class="flex items-start gap-3">
+    <img src="Icon/machine-learning.png" 
+        alt="Learning"
+        class="w-15 h-15 object-contain shrink-0 shadow-md rounded-2xl p-2"
+    >
+    <div>
+        <h3 class="font-extrabold">
+            Belajar Secara otodidak
+        </h3>
+        <p class="text-sm text-gray-600">
+            Mempelajari web development secara mandiri.
+        </p>
+    </div>
+</div>
+
+<div class="flex items-start gap-3">
+    <img src="Icon/development.png" 
+        alt="Learning"
+        class="w-15 h-15 object-contain shrink-0 shadow-md rounded-2xl p-2"
+    >
+    <div>
+        <h3 class="font-extrabold">
+            Pengembangan Skill
+        </h3>
+        <p class="text-sm text-gray-600">
+            Mempelajari web development secara mandiri.
+        </p>
+    </div>
+</div>
+</main>
+
+<section class="w-[94%] sm:w-[92%] max-w-7xl mx-auto mt-4">
+
+    <div class="grid grid-cols-1 lg:grid-cols-2 gap-4">
+
+        <!-- ================= TENTANG SAYA ================= -->
+        <div class="bg-[#F8FAFC] p-4 sm:p-5 rounded-2xl shadow-sm">
+
+            <div class="flex items-center gap-3">
+                <img src="Icon/user.png"
+                     alt="Icon Tentang Saya"
+                     class="w-8 h-8 sm:w-10 sm:h-10 object-contain shrink-0">
+
+                <h1 class="text-xl sm:text-2xl font-extrabold">
+                    Tentang Saya
+                </h1>
+            </div>
+
+            <p class="text-sm sm:text-base text-gray-800 leading-6 mt-3">
+                Saya adalah seorang pekerja freelance di Shopee sebagai DWR,
+                yang saat ini sedang mengembangkan diri untuk menjadi seorang
+                programmer.
+
+                Di luar pekerjaan, saya belajar pemrograman secara otodidak
+                dengan berlatih membuat aplikasi berbasis web. Saya mempelajari
+                bagaimana sebuah aplikasi dibangun dari sisi frontend hingga
+                backend, mengelola database, hingga mengembangkan fitur-fitur
+                yang dapat digunakan.
+
+                Dalam proses belajar, saya banyak menggunakan teknologi seperti
+                PHP, Laravel, Tailwind CSS, MySQL, dan SQLite.
+
+                <br><br>
+
+                <span class="font-bold">
+                    Tujuan saya adalah terus berkembang dan mendapatkan
+                    kesempatan untuk bekerja sebagai seorang programmer,
+                    khususnya di bidang web development.
+                </span>
+            </p>
+
+            <!-- Informasi -->
+            <div class="overflow-x-auto mt-4">
+
+                <table class="text-left text-sm sm:text-base w-full">
+
+                    <tbody>
+
+                        <tr>
+                            <th class="pr-4 sm:pr-10 py-2 whitespace-nowrap">
+                                <div class="flex items-center gap-2">
+                                    <img src="Icon/Age.png"
+                                         alt="Usia"
+                                         class="h-5 w-5 shrink-0 object-contain">
+
+                                    <span>Usia</span>
+                                </div>
+                            </th>
+
+                            <td class="py-2">
+                                23 Tahun
+                            </td>
+                        </tr>
+
+                        <tr>
+                            <th class="pr-4 sm:pr-10 py-2 whitespace-nowrap">
+                                <div class="flex items-center gap-2">
+                                    <img src="Icon/graduate.png"
+                                         alt="Pendidikan"
+                                         class="h-5 w-5 shrink-0 object-contain">
+
+                                    <span>Pendidikan</span>
+                                </div>
+                            </th>
+
+                            <td class="py-2">
+                                SMK
+                            </td>
+                        </tr>
+
+                        <tr>
+                            <th class="pr-4 sm:pr-10 py-2 whitespace-nowrap">
+                                <div class="flex items-center gap-2">
+                                    <img src="Icon/jobs.png"
+                                         alt="Pekerjaan"
+                                         class="h-5 w-5 shrink-0 object-contain">
+
+                                    <span>Pekerjaan</span>
+                                </div>
+                            </th>
+
+                            <td class="py-2">
+                                Freelance Shopee
+                            </td>
+                        </tr>
+
+                        <tr>
+                            <th class="pr-4 sm:pr-10 py-2 whitespace-nowrap">
+                                <div class="flex items-center gap-2">
+                                    <img src="Icon/mail.png"
+                                         alt="Email"
+                                         class="h-5 w-5 shrink-0 object-contain">
+
+                                    <span>Email</span>
+                                </div>
+                            </th>
+
+                            <td class="py-2 break-all">
+                                <a href="mailto:ahmad@gmail.com"
+                                   class="hover:underline">
+                                    ahmad@gmail.com
+                                </a>
+                            </td>
+                        </tr>
+
+                    </tbody>
+
+                </table>
+
+            </div>
+
+        </div>
+
+
+        <!-- ================= SKILL ================= -->
+        <div class="bg-[#F8FAFC] p-4 sm:p-5 rounded-2xl shadow-sm">
+
+            <div class="flex items-center gap-3">
+
+                <img src="Icon/programming.png"
+                     alt="Icon Programming"
+                     class="w-8 h-8 sm:w-10 sm:h-10 object-contain shrink-0">
+
+                <h1 class="text-xl sm:text-2xl font-extrabold">
+                    Skill
+                </h1>
+
+            </div>
+
+
+            <!-- Bahasa Pemrograman -->
+            <h2 class="mt-4 font-semibold">
+                Bahasa Pemrograman & Framework
+            </h2>
+
+            <div class="grid grid-cols-2 sm:grid-cols-3 gap-3 mt-3">
+
+                <div class="flex items-center gap-2 shadow-md
+                            px-3 py-3 rounded-md bg-white">
+                    <img src="Icon/php.png"
+                         alt="PHP"
+                         class="w-7 h-7 shrink-0 object-contain">
+
+                    <h3 class="text-sm sm:text-base">
+                        PHP
+                    </h3>
+                </div>
+
+                <div class="flex items-center gap-2 shadow-md
+                            px-3 py-3 rounded-md bg-white">
+                    <img src="Icon/html.png"
+                         alt="HTML"
+                         class="w-7 h-7 shrink-0 object-contain">
+
+                    <h3 class="text-sm sm:text-base">
+                        HTML
+                    </h3>
+                </div>
+
+                <div class="flex items-center gap-2 shadow-md
+                            px-3 py-3 rounded-md bg-white">
+                    <img src="Icon/css.png"
+                         alt="CSS"
+                         class="w-7 h-7 shrink-0 object-contain">
+
+                    <h3 class="text-sm sm:text-base">
+                        CSS
+                    </h3>
+                </div>
+
+            </div>
+
+
+            <!-- Framework -->
+            <h2 class="mt-5 font-semibold">
+                Framework & Libraries
+            </h2>
+
+            <div class="grid grid-cols-2 gap-3 mt-3">
+
+                <div class="flex items-center gap-2 shadow-md
+                            px-3 py-3 rounded-md bg-white">
+
+                    <img src="Icon/laravel.png"
+                         alt="Laravel"
+                         class="w-7 h-7 shrink-0 object-contain">
+
+                    <h3 class="text-sm sm:text-base">
+                        Laravel
+                    </h3>
+
+                </div>
+
+                <div class="flex items-center gap-2 shadow-md
+                            px-3 py-3 rounded-md bg-white">
+
+                    <img src="Icon/tailwindcss.png"
+                         alt="Tailwind CSS"
+                         class="w-7 h-7 shrink-0 object-contain">
+
+                    <h3 class="text-sm sm:text-base">
+                        Tailwind CSS
+                    </h3>
+
+                </div>
+
+            </div>
+
+
+            <!-- Database -->
+            <h2 class="mt-5 font-semibold">
+                Database
+            </h2>
+
+            <div class="grid grid-cols-2 gap-3 mt-3">
+
+                <div class="flex items-center gap-2 shadow-md
+                            px-3 py-3 rounded-md bg-white">
+
+                    <img src="Icon/mysql.png"
+                         alt="MySQL"
+                         class="w-7 h-7 shrink-0 object-contain">
+
+                    <h3 class="text-sm sm:text-base">
+                        MySQL
+                    </h3>
+
+                </div>
+
+                <div class="flex items-center gap-2 shadow-md
+                            px-3 py-3 rounded-md bg-white">
+
+                    <img src="Icon/sqlite.png"
+                         alt="SQLite"
+                         class="w-7 h-7 shrink-0 object-contain">
+
+                    <h3 class="text-sm sm:text-base">
+                        SQLite
+                    </h3>
+
+                </div>
+
+            </div>
+
+
+            <!-- Tools -->
+            <h2 class="mt-5 font-semibold">
+                Tools & Others
+            </h2>
+
+            <div class="grid grid-cols-2 gap-3 mt-3">
+
+                <div class="flex items-center gap-2 shadow-md
+                            px-3 py-3 rounded-md bg-white">
+
+                    <img src="Icon/git.png"
+                         alt="Git"
+                         class="w-7 h-7 shrink-0 object-contain">
+
+                    <h3 class="text-sm sm:text-base">
+                        Git
+                    </h3>
+
+                </div>
+
+                <div class="flex items-center gap-2 shadow-md
+                            px-3 py-3 rounded-md bg-white">
+
+                    <img src="Icon/vscode.png"
+                         alt="VS Code"
+                         class="w-7 h-7 shrink-0 object-contain">
+
+                    <h3 class="text-sm sm:text-base">
+                        VS Code
+                    </h3>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+<footer class="w-[92%] max-w-7xl mx-auto mt-4 rounded-2xl shadow-sm bg-[#F8FAFC] p-5">
+    <div class="flex items-center mb-3 gap-5">
+        <img src="Icon/portfolio-folder.png" alt=""
+        class="h-10 w-10 shrink-0 object-contain">
+        <h3 class="font-bold text-2xl">Proyek Pengembangan Diri</h3>
+    </div>
+    <div class="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-5">
+        <div class="shadow-md rounded-2xl p-3">
+            <img src="footer-images-projects/toko-online.png" alt="" class="rounded-2xl w-200">
+            <h3 class="font-bold mt-2">Toko Online</h3>
+            <p class="text-sm mt-2">Marketplace sederhanna dengan fitur checkout dan keranjang belanja</p>
+            <div class="flex items-center gap-3 mt-2">
+                <h3 class="py-3 px-4 bg-[#FF2D20] text-white rounded-2xl">Laravel</h3>
+                <h3>Tailwindcss</h3>
+                <h3>Sqlite</h3>
+            </div>
+        </div>
+        <div class="shadow-md rounded-2xl p-3">
+            <img src="footer-images-projects/toko.png" alt=""
+            class="rounded-2xl w-200">
+            <h3 class="font-bold mt-2">Halaman Home</h3>
+            <p class="text-sm">Marketplace sederhanna dengan fitur checkout dan keranjang belanja</p>
+        </div>
+        <div class="shadow-md rounded-2xl p-3">
+            <img src="footer-images-projects/portofolio.png" alt=""
+            class="rounded-2xl w-200">
+            <h3 class="font-bold mt-2">Portofolio</h3>
+            <p class="text-sm">Marketplace sederhanna dengan fitur checkout dan keranjang belanja</p>
+        </div>
+    </div>
+    
+</footer>
+
+<div class="mx-auto w-[92%] max-w-7xl px-6 py-12 mt-5 rounded-2xl bg-[#F8FAFC]">
+
+        <div class="grid gap-10 md:grid-cols-3">
+
+            <!-- Tentang -->
+            <div>
+                <h2 class="text-xl font-bold">
+                    Ahmad Ryzky
+                </h2>
+
+                <p class="mt-3 max-w-sm text-sm leading-6 text-slate-400">
+                    Pengembang web yang sedang membangun kemampuan
+                    dalam pengembangan aplikasi menggunakan Laravel,
+                    PHP, Tailwind CSS, dan teknologi web lainnya.
+                </p>
+            </div>
+
+            <!-- Navigasi -->
+            <div>
+                <h3 class="text-sm font-semibold uppercase tracking-wider">
+                    Navigasi
+                </h3>
+
+                <ul class="mt-4 space-y-3 text-sm">
+                    <li>
+                        <a href="#home"
+                           class="text-slate-400 transition hover:text-white">
+                            Beranda
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="#about"
+                           class="text-slate-400 transition hover:text-white">
+                            Tentang Saya
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="#projects"
+                           class="text-slate-400 transition hover:text-white">
+                            Proyek
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="#skills"
+                           class="text-slate-400 transition hover:text-white">
+                            Keahlian
+                        </a>
+                    </li>
+                </ul>
+            </div>
+
+            <!-- Kontak -->
+            <div>
+                <h3 class="text-sm font-semibold uppercase tracking-wider">
+                    Terhubung
+                </h3>
+
+                <p class="mt-4 text-sm leading-6 text-slate-400">
+                    Terbuka untuk kesempatan belajar, berkolaborasi,
+                    dan mengembangkan proyek bersama.
+                </p>
+
+                <div class="mt-5 flex gap-3">
+
+                    <a href="#"
+                       class="flex h-10 w-10 items-center justify-center rounded-xl
+                              border border-white/10 bg-white/5 text-slate-400
+                              transition hover:border-white/20 hover:bg-white/10
+                              hover:text-white">
+                        GitHub
+                    </a>
+
+                    <a href="#"
+                       class="flex h-10 w-10 items-center justify-center rounded-xl
+                              border border-white/10 bg-white/5 text-slate-400
+                              transition hover:border-white/20 hover:bg-white/10
+                              hover:text-white">
+                        in
+                    </a>
+
+                </div>
+            </div>
+
+        </div>
+
+        <!-- Bottom -->
+        <div class="mt-10 border-t border-white/10 pt-6
+                    flex flex-col gap-3 text-sm text-slate-500
+                    md:flex-row md:items-center md:justify-between">
+
+            <p>
+                © 2026 Ahmad Ryzky. Semua hak dilindungi.
+            </p>
+
+            <p>
+                Dibangun dengan
+                <span class="font-medium text-[#FF2D20]">Tailwind CSS</span>
+            </p>
+
+        </div>
+
+    </div>
+
+
+    
+</body>
+
+</html>
